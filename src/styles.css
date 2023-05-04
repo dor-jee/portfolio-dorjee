@@ -22,7 +22,6 @@ footer {
 }
 
 
-
 nav {
     display: flex;
     justify-content: flex-end;
@@ -31,7 +30,7 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 400px;
+    width: 500px;
     justify-content: space-around;
     font-size: 25px;
 }
@@ -58,7 +57,7 @@ h3 {
 
 p {
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
 }
 
@@ -160,6 +159,14 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+    .project-card {
+      width:fit-content;
+      height: 800px;
+    }
+    .subtext {
+      font-size: 30px;
+      font-weight: 300;
+  }
 }
 
 .project-image {
@@ -199,7 +206,7 @@ a {
         border: 0;
         background-color: transparent;
         color: white;
-        font-size: 30px;
+        font-size: 60px;
         margin: 20px;
         align-self: flex-end;
     }
@@ -208,6 +215,7 @@ a {
         display: none;
         background-color: #2b2c38;
         margin: 0ppx;
+        font-size: 40px;
     }
 
     ul.show {
@@ -218,9 +226,8 @@ a {
         display: flex;
         flex-direction: column-reverse;
         background-color: #2b2c38;
+        height: 120px;
     }
 
-    .logo {
-        display: none;
-    }
+
 }
